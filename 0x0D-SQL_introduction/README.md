@@ -2,7 +2,8 @@
 
 This directory is a short Introduction to databases and Database Management Systems(DBMS). It has files that run basic SQL queries.
 
-##Table of Contents
+## Table of Contents
+
 File | Queries run
 -----|------------
 [0-list_databases.sql](./0-list_databases.sql) | Shows Databases in Server.
@@ -21,5 +22,8 @@ File | Queries run
 [13-change_class.sql](./13-change_class.sql) | Removes records that have a score below 5.
 [14-average.sql](./14-average.sql) | Calculates the average score attained.
 [15-groups.sql](./15-groups.sql) | Lists values in second_table that have similar score values and groups them according to their totals in descending order.
-[16-no_link.sql](./16-no_link.sql) |  Lists values in second_table that have name value
-in descending score order.
+[16-no_link.sql](./16-no_link.sql) |  Lists values in second_table that have name value in descending score order.
+[100-move_to_utf8.sql](./100-move_to_utf8.sql) | Changes the character code in table, database and specified field from latin to unicode(utf8mb4)
+[101-avg_temperatures.sql](./101-avg_temperatures.sql) | Calculates and displays the avg temp in each city in descending order.
+[102-top_city.sql](./102-top_city.sql) | Calculates and displays the top 3 cities with the highest avg temp.
+[103-max_state.sql](./103-max_state.sql) | Calculates and displays states' max_temp in descending order.
